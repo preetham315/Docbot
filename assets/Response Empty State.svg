@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="292.227" viewBox="0 0 380 292.227">
+  <g id="Response_Empty_State" data-name="Response Empty State" transform="matrix(0.883, 0.469, -0.469, 0.883, 129.166, -48.275)">
+    <path id="Path_101398" data-name="Path 101398" d="M249.734,246.453,106.112,217.1,139.035,56l143.621,29.35-32.922,161.1Z" transform="translate(-72 -19.467)" fill="#d6dae1"/>
+    <path id="Path_101399" data-name="Path 101399" d="M209.084,250.63l-81.708-123.12,109.773-72.85,81.708,123.121-109.773,72.85Z" transform="translate(-72 -22.302)" fill="#eff2f4"/>
+    <path id="Path_101402" data-name="Path 101402" d="M205.275,197.2l-5.6,3.548-10.316-16.292,5.6-3.548Zm21.848,1.229-5.6,3.548-16.8-26.529,5.6-3.548,16.8,26.529Zm20.208-2.619-5.6,3.548-21.318-33.669,5.6-3.548Zm11.775-83.636L175.955,164.09l1.418,2.219,83.15-51.912-1.417-2.22ZM251.752,99.9,168.574,151.84l1.418,2.22,83.177-51.939Zm-47.927,10-44.1,28.537,1.417,2.22,44.1-28.537Z" transform="translate(-72 -18.89)" fill="#fff"/>
+    <path id="Path_101403" data-name="Path 101403" d="M236.457,245.075l-20.65-8.915L264.6,123.135l20.651,8.914L236.457,245.075Zm-25.57,13.051,11.928,5.4-10,8.077-1.283-.348-.642-13.132Z" transform="translate(-72 -111.75)" fill="#80899c"/>
+    <path id="Path_101404" data-name="Path 101404" d="M210.243,237.856l.7,29.524,24.62-19.45m-1.426-33.8,40.132-92.705" transform="translate(-72 -105.813)" fill="none" stroke="#4a505e" stroke-miterlimit="10" stroke-width="2.781"/>
+    <path id="Path_101406" data-name="Path 101406" d="M269,126.131a12.918,12.918,0,1,1-12.918,12.918A12.919,12.919,0,0,1,269,126.131Z" transform="translate(-72.001 4.893)" fill="#fff"/>
+    <text id="Ask_a_Question_to_generate_Response" data-name="Ask a Question to generate Response" transform="matrix(0.883, -0.469, 0.469, 0.883, 42.992, 355.987)" fill="#c8d3de" font-size="23" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Ask a Question to generate Response</tspan></text>
+  </g>
+</svg>

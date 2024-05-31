@@ -1,0 +1,291 @@
+div.stButton > button:first-child {
+    background-color: #f5f9fc;
+    position: absolute;
+}
+
+.stButton>button {
+    color: #800000;
+    /* border-radius: 20%; */
+    background-color: #f5f9fc;
+    height: 2.2em;
+    /*top: 120px*/
+    /* width: 3em; */
+    }
+    
+div[data-baseweb="select"] > div {
+    background-color: white;
+}
+/* *{font-size: 50px} */
+div[data-baseweb="input"] > div {
+    background-color: white;
+}
+div[data-baseweb="code"] > div {
+    background-color: red;
+}
+
+div[data-modal-container='true'][key='modal'] {
+    height: 1000px !important;
+    top: 100px;
+    color: #166177;
+}
+
+div[data-modal-container='true'][key='modal'] > div{
+    overflow: scroll !important;
+    width: 38vw;
+}
+
+div[data-modal-container='true'][key='modal'] > div > div:nth-child(2) {
+    right: 10px
+}
+
+div[data-testid="stExpander"] div[role="button"] p {
+    font-size: 1.5rem;
+    color: grey;
+    font-weight: bold;
+}
+
+
+/* these classes are defined by streamlit , we are overriding the properties to accomodate header */
+
+.resbox * {
+    font-size: 18px !important;
+    color: #187233;
+    background-color: #dff4eb;
+}
+
+/* generated code font */
+pre code {
+    font-size: 18px !important;
+}
+
+/*.stSidebar{
+    top: 60px;
+    font-size: large;
+}*/
+
+.stApp{
+    top: 0px;
+    font-size: large;
+}
+
+/* Running */
+.stApp > header{
+    top: 0px;    
+}
+
+/* sidebar X button */
+/*.css-1nm2qww {
+  top: 60px;
+}*/
+
+/*INQUIRE*/
+.css-16idsys p{
+    font-size: 30px;
+    color: #800000;
+}
+
+/*sidebar*/
+.css-vk3wp9 {
+    top: 60px;
+}
+
+/*sidebar text*/
+.css-1u3x3ha {
+    top: -45px;
+}
+
+
+.appview-container>div{
+    top: 60px
+}
+
+.block-container{
+    padding-top: 0px !important;
+}
+
+.StatusWidget-enter-done{
+    background-color: red;
+    right: 50%;
+}
+.StatusWidget-exit-done{
+    background-color: red;
+    right: 50%;
+}
+.StatusWidget-enter-active{
+    background-color: red;
+}
+.StatusWidget-exit-active{
+    background-color: red;
+}
+.navbar{
+    font-family: sans-serif;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background: #212529;
+    z-index: 99999999999999999999;
+    left: 0rem;
+    top: 0rem;
+    height: 65px;
+    max-width: none !important;
+}
+.navbar_tabs{
+    font-family: 'Trebuchet MS', sans-serif;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background: #66829f;
+    z-index: 99999999999999999999;
+    left: 0rem;
+    top: 55px;
+    height: 55px;
+}
+
+.header{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-size: 28px;
+    font: sans-serif;
+    color: white;
+}
+
+.container{
+    display: flex;
+}
+
+.image {
+    flex: 0 0 50%;
+  }
+  
+.text {
+    flex: 0 0 50%;
+ }
+
+ /* iframe{
+    height: 7rem !important;
+ } */
+
+.navitem{
+    float: left;
+    display: block;
+    color: white !important;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none !important;
+    border-bottom: 2px solid transparent;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.navitem:hover{
+    background-color: #273c5b;
+    height: 55px !important;
+}
+
+
+.settings{
+    height:1rem;
+}
+
+.version-span{
+    color: white;
+    position: absolute;
+    right: 1rem;
+    bottom: 1.75rem;
+    opacity: 0.5;
+    z-index: 9999;
+    border: 2px solid #333;
+    border-radius: 25px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background: #333;
+}
+
+.logo{
+    padding: 10px;
+    font-size: 16px;
+    height: 55px;
+}
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    height: 55px;
+    opacity: 0.5;
+    filter: invert(1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* .dropbtn:hover, .dropbtn:focus {
+    opacity:0.5;
+} */
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    right: 0rem;
+    top: 7px;
+}
+
+/* .dropdown-content {
+    visibility: hidden;
+    position: fixed;
+    border-radius: 9px;
+    background-color: #333;
+    min-width: 160px;
+    overflow: auto;
+    right:0.3rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+} */
+
+/* .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} */
+
+.dropbtn:hover{
+    background-color: rgba(221, 221, 221, 0.233);
+    background: rgba(221, 221, 221, 0.233);
+    color: #e5eaeb;
+}
+
+/* .dropdown a:hover {background-color: rgba(221, 221, 221, 0.233);} */
+
+/* iframe{
+    height: 0rem;
+} */
+
+/* .css-16idsys p{
+    font-size: 30px!important;
+} */
+
+.popup-image {
+    position: relative;
+    display: flex;
+    width: 900px;
+    height: 600px;
+    max-width: 1200px;
+    max-height: 800px;
+    right: 950px;
+    border-radius: 1px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+pre{
+    background-color: #166177;
+    color: white !important;
+}
+/* .stSelectbox{
+    width: 1092px !important
+} */
+
+
+
+/* css-1fcdlhc */
